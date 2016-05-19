@@ -7,7 +7,9 @@
 //
 
 #import "AppDelegate.h"
-
+#import "LiveViewController.h"
+#import "VideoViewController.h"
+#import "NewsViewController.h"
 @interface AppDelegate ()
 
 @end
@@ -16,7 +18,37 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+ 
+    self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+    self.window.backgroundColor = [UIColor whiteColor];
+    [self.window makeKeyAndVisible];
+
+    
+    //设置直播Controller
+    UINavigationController *liveNC = [[UINavigationController alloc] initWithRootViewController:[LiveViewController new]];
+    UIImage *liveImage = [UIImage imageNamed:@"live"];
+    UIImage *liveSelectedImage = [UIImage imageNamed:@"live-s"];
+    liveNC.tabBarItem = [[UITabBarItem alloc] initWithTitle:@"直播" image:liveImage selectedImage:liveSelectedImage];
+    
+    //设置视频Controller
+    UINavigationController *videoNC = [[UINavigationController alloc] initWithRootViewController:[VideoViewController new]];
+    UIImage *videoImage = [UIImage imageNamed:@"video"];
+    UIImage *videoSelectedImage = [UIImage imageNamed:@"video-s"];
+    videoNC.tabBarItem = [[UITabBarItem alloc] initWithTitle:@"视频" image:videoImage selectedImage:videoSelectedImage];
+    
+    //设置新闻Controller
+    UINavigationController *newsNC = [[UINavigationController alloc] initWithRootViewController:[NewsViewController new]];
+    UIImage *newsImage = [UIImage imageNamed:@"news"];
+    UIImage *newsSelectedImage = [UIImage imageNamed:@"news-s"];
+    newsNC.tabBarItem = [[UITabBarItem alloc] initWithTitle:@"新闻" image:newsImage selectedImage:newsSelectedImage];
+    
+    //设置UITabbarController
+    UITabBarController *mainTabBarController = [[UITabBarController alloc] init];
+    mainTabBarController.viewControllers = @[liveNC, videoNC, newsNC];
+    [[UINavigationBar appearance] setBarTintColor:[UIColor colorWithRed:0.268 green:0.499 blue:1.000 alpha:1.000]];
+    
+    self.window.rootViewController = mainTabBarController;
+    
     return YES;
 }
 

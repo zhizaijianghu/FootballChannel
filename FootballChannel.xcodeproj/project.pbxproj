@@ -16,6 +16,25 @@
 		D637C2D11CEBFB3C0034F987 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D637C2CF1CEBFB3C0034F987 /* LaunchScreen.storyboard */; };
 		D637C2DC1CEBFB3C0034F987 /* FootballChannelTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D637C2DB1CEBFB3C0034F987 /* FootballChannelTests.m */; };
 		D637C2E71CEBFB3C0034F987 /* FootballChannelUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D637C2E61CEBFB3C0034F987 /* FootballChannelUITests.m */; };
+		D637C3251CEC12BA0034F987 /* LiveViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D637C3231CEC12BA0034F987 /* LiveViewController.m */; };
+		D637C3261CEC12BA0034F987 /* LiveViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D637C3241CEC12BA0034F987 /* LiveViewController.xib */; };
+		D637C32A1CEC12C50034F987 /* VideoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D637C3281CEC12C50034F987 /* VideoViewController.m */; };
+		D637C32B1CEC12C50034F987 /* VideoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D637C3291CEC12C50034F987 /* VideoViewController.xib */; };
+		D637C32F1CEC12D40034F987 /* NewsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D637C32D1CEC12D40034F987 /* NewsViewController.m */; };
+		D637C3301CEC12D40034F987 /* NewsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D637C32E1CEC12D40034F987 /* NewsViewController.xib */; };
+		D637C33F1CEC1AB80034F987 /* DidEndTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D637C33D1CEC1AB80034F987 /* DidEndTableViewCell.m */; };
+		D637C3401CEC1AB80034F987 /* DidEndTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D637C33E1CEC1AB80034F987 /* DidEndTableViewCell.xib */; };
+		D637C3441CEC1ACB0034F987 /* AllLiveTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D637C3421CEC1ACB0034F987 /* AllLiveTableViewCell.m */; };
+		D637C3451CEC1ACB0034F987 /* AllLiveTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D637C3431CEC1ACB0034F987 /* AllLiveTableViewCell.xib */; };
+		D637C35D1CEC4D0F0034F987 /* video.png in Resources */ = {isa = PBXBuildFile; fileRef = D637C3571CEC4D0F0034F987 /* video.png */; };
+		D637C35E1CEC4D0F0034F987 /* live.png in Resources */ = {isa = PBXBuildFile; fileRef = D637C3581CEC4D0F0034F987 /* live.png */; };
+		D637C35F1CEC4D0F0034F987 /* live-s.png in Resources */ = {isa = PBXBuildFile; fileRef = D637C3591CEC4D0F0034F987 /* live-s.png */; };
+		D637C3601CEC4D0F0034F987 /* news.png in Resources */ = {isa = PBXBuildFile; fileRef = D637C35A1CEC4D0F0034F987 /* news.png */; };
+		D637C3611CEC4D0F0034F987 /* news-s.png in Resources */ = {isa = PBXBuildFile; fileRef = D637C35B1CEC4D0F0034F987 /* news-s.png */; };
+		D637C3621CEC4D0F0034F987 /* video-s.png in Resources */ = {isa = PBXBuildFile; fileRef = D637C35C1CEC4D0F0034F987 /* video-s.png */; };
+		D637C3681CEC988B0034F987 /* AllLiveModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D637C3671CEC988B0034F987 /* AllLiveModel.m */; };
+		D637C36E1CECA60A0034F987 /* LiveHandle.m in Sources */ = {isa = PBXBuildFile; fileRef = D637C36D1CECA60A0034F987 /* LiveHandle.m */; };
+		D637C3741CECB4100034F987 /* DateLiveModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D637C3731CECB4100034F987 /* DateLiveModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +72,33 @@
 		D637C2E21CEBFB3C0034F987 /* FootballChannelUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FootballChannelUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D637C2E61CEBFB3C0034F987 /* FootballChannelUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FootballChannelUITests.m; sourceTree = "<group>"; };
 		D637C2E81CEBFB3C0034F987 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D637C3221CEC12BA0034F987 /* LiveViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LiveViewController.h; path = ../LiveViewController.h; sourceTree = "<group>"; };
+		D637C3231CEC12BA0034F987 /* LiveViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LiveViewController.m; path = ../LiveViewController.m; sourceTree = "<group>"; };
+		D637C3241CEC12BA0034F987 /* LiveViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = LiveViewController.xib; path = ../LiveViewController.xib; sourceTree = "<group>"; };
+		D637C3271CEC12C50034F987 /* VideoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VideoViewController.h; path = ../VideoViewController.h; sourceTree = "<group>"; };
+		D637C3281CEC12C50034F987 /* VideoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = VideoViewController.m; path = ../VideoViewController.m; sourceTree = "<group>"; };
+		D637C3291CEC12C50034F987 /* VideoViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = VideoViewController.xib; path = ../VideoViewController.xib; sourceTree = "<group>"; };
+		D637C32C1CEC12D40034F987 /* NewsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NewsViewController.h; path = ../NewsViewController.h; sourceTree = "<group>"; };
+		D637C32D1CEC12D40034F987 /* NewsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NewsViewController.m; path = ../NewsViewController.m; sourceTree = "<group>"; };
+		D637C32E1CEC12D40034F987 /* NewsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = NewsViewController.xib; path = ../NewsViewController.xib; sourceTree = "<group>"; };
+		D637C33C1CEC1AB80034F987 /* DidEndTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DidEndTableViewCell.h; sourceTree = "<group>"; };
+		D637C33D1CEC1AB80034F987 /* DidEndTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DidEndTableViewCell.m; sourceTree = "<group>"; };
+		D637C33E1CEC1AB80034F987 /* DidEndTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DidEndTableViewCell.xib; sourceTree = "<group>"; };
+		D637C3411CEC1ACB0034F987 /* AllLiveTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AllLiveTableViewCell.h; sourceTree = "<group>"; };
+		D637C3421CEC1ACB0034F987 /* AllLiveTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AllLiveTableViewCell.m; sourceTree = "<group>"; };
+		D637C3431CEC1ACB0034F987 /* AllLiveTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AllLiveTableViewCell.xib; sourceTree = "<group>"; };
+		D637C3571CEC4D0F0034F987 /* video.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = video.png; sourceTree = "<group>"; };
+		D637C3581CEC4D0F0034F987 /* live.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = live.png; sourceTree = "<group>"; };
+		D637C3591CEC4D0F0034F987 /* live-s.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "live-s.png"; sourceTree = "<group>"; };
+		D637C35A1CEC4D0F0034F987 /* news.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = news.png; sourceTree = "<group>"; };
+		D637C35B1CEC4D0F0034F987 /* news-s.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "news-s.png"; sourceTree = "<group>"; };
+		D637C35C1CEC4D0F0034F987 /* video-s.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "video-s.png"; sourceTree = "<group>"; };
+		D637C3661CEC988B0034F987 /* AllLiveModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AllLiveModel.h; sourceTree = "<group>"; };
+		D637C3671CEC988B0034F987 /* AllLiveModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AllLiveModel.m; sourceTree = "<group>"; };
+		D637C36C1CECA60A0034F987 /* LiveHandle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LiveHandle.h; sourceTree = "<group>"; };
+		D637C36D1CECA60A0034F987 /* LiveHandle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LiveHandle.m; sourceTree = "<group>"; };
+		D637C3721CECB4100034F987 /* DateLiveModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DateLiveModel.h; sourceTree = "<group>"; };
+		D637C3731CECB4100034F987 /* DateLiveModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DateLiveModel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +153,11 @@
 				D637C2C21CEBFB3B0034F987 /* AppDelegate.m */,
 				D637C2C41CEBFB3B0034F987 /* ViewController.h */,
 				D637C2C51CEBFB3B0034F987 /* ViewController.m */,
+				D637C3461CEC43B70034F987 /* photos */,
+				D637C2F41CEBFC3B0034F987 /* Live */,
+				D637C2F51CEC00F00034F987 /* Video */,
+				D637C2F61CEC01170034F987 /* News */,
+				D637C2F71CEC01460034F987 /* User */,
 				D637C2C71CEBFB3C0034F987 /* Main.storyboard */,
 				D637C2CD1CEBFB3C0034F987 /* Assets.xcassets */,
 				D637C2CF1CEBFB3C0034F987 /* LaunchScreen.storyboard */,
@@ -141,6 +192,171 @@
 				D637C2E81CEBFB3C0034F987 /* Info.plist */,
 			);
 			path = FootballChannelUITests;
+			sourceTree = "<group>";
+		};
+		D637C2F41CEBFC3B0034F987 /* Live */ = {
+			isa = PBXGroup;
+			children = (
+				D637C3691CECA1CC0034F987 /* LiveHandle */,
+				D637C3311CEC12EA0034F987 /* ViewController */,
+				D637C3341CEC1A170034F987 /* View */,
+				D637C3631CEC976D0034F987 /* Model */,
+			);
+			name = Live;
+			path = Main;
+			sourceTree = "<group>";
+		};
+		D637C2F51CEC00F00034F987 /* Video */ = {
+			isa = PBXGroup;
+			children = (
+				D637C36A1CECA1D40034F987 /* VideoHandle */,
+				D637C3321CEC12EF0034F987 /* ViewController */,
+				D637C3351CEC1A380034F987 /* View */,
+				D637C3641CEC978B0034F987 /* Model */,
+			);
+			name = Video;
+			path = Main/Video;
+			sourceTree = "<group>";
+		};
+		D637C2F61CEC01170034F987 /* News */ = {
+			isa = PBXGroup;
+			children = (
+				D637C36B1CECA1D90034F987 /* NewsHandle */,
+				D637C3331CEC12F40034F987 /* ViewController */,
+				D637C3361CEC1A550034F987 /* View */,
+				D637C3651CEC97940034F987 /* Model */,
+			);
+			path = News;
+			sourceTree = "<group>";
+		};
+		D637C2F71CEC01460034F987 /* User */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = User;
+			sourceTree = "<group>";
+		};
+		D637C3311CEC12EA0034F987 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				D637C3221CEC12BA0034F987 /* LiveViewController.h */,
+				D637C3231CEC12BA0034F987 /* LiveViewController.m */,
+				D637C3241CEC12BA0034F987 /* LiveViewController.xib */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		D637C3321CEC12EF0034F987 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				D637C3271CEC12C50034F987 /* VideoViewController.h */,
+				D637C3281CEC12C50034F987 /* VideoViewController.m */,
+				D637C3291CEC12C50034F987 /* VideoViewController.xib */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		D637C3331CEC12F40034F987 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				D637C32C1CEC12D40034F987 /* NewsViewController.h */,
+				D637C32D1CEC12D40034F987 /* NewsViewController.m */,
+				D637C32E1CEC12D40034F987 /* NewsViewController.xib */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		D637C3341CEC1A170034F987 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D637C3411CEC1ACB0034F987 /* AllLiveTableViewCell.h */,
+				D637C3421CEC1ACB0034F987 /* AllLiveTableViewCell.m */,
+				D637C3431CEC1ACB0034F987 /* AllLiveTableViewCell.xib */,
+				D637C33C1CEC1AB80034F987 /* DidEndTableViewCell.h */,
+				D637C33D1CEC1AB80034F987 /* DidEndTableViewCell.m */,
+				D637C33E1CEC1AB80034F987 /* DidEndTableViewCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D637C3351CEC1A380034F987 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
+			path = ../../View;
+			sourceTree = "<group>";
+		};
+		D637C3361CEC1A550034F987 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
+			path = ViewController/View;
+			sourceTree = "<group>";
+		};
+		D637C3461CEC43B70034F987 /* photos */ = {
+			isa = PBXGroup;
+			children = (
+				D637C3571CEC4D0F0034F987 /* video.png */,
+				D637C3581CEC4D0F0034F987 /* live.png */,
+				D637C3591CEC4D0F0034F987 /* live-s.png */,
+				D637C35A1CEC4D0F0034F987 /* news.png */,
+				D637C35B1CEC4D0F0034F987 /* news-s.png */,
+				D637C35C1CEC4D0F0034F987 /* video-s.png */,
+			);
+			path = photos;
+			sourceTree = "<group>";
+		};
+		D637C3631CEC976D0034F987 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D637C3661CEC988B0034F987 /* AllLiveModel.h */,
+				D637C3671CEC988B0034F987 /* AllLiveModel.m */,
+				D637C3721CECB4100034F987 /* DateLiveModel.h */,
+				D637C3731CECB4100034F987 /* DateLiveModel.m */,
+			);
+			name = Model;
+			path = ../Model;
+			sourceTree = "<group>";
+		};
+		D637C3641CEC978B0034F987 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D637C3651CEC97940034F987 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D637C3691CECA1CC0034F987 /* LiveHandle */ = {
+			isa = PBXGroup;
+			children = (
+				D637C36C1CECA60A0034F987 /* LiveHandle.h */,
+				D637C36D1CECA60A0034F987 /* LiveHandle.m */,
+			);
+			path = LiveHandle;
+			sourceTree = "<group>";
+		};
+		D637C36A1CECA1D40034F987 /* VideoHandle */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = VideoHandle;
+			path = LiveHandle;
+			sourceTree = "<group>";
+		};
+		D637C36B1CECA1D90034F987 /* NewsHandle */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = NewsHandle;
+			path = LiveHandle;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -248,7 +464,18 @@
 			files = (
 				D637C2D11CEBFB3C0034F987 /* LaunchScreen.storyboard in Resources */,
 				D637C2CE1CEBFB3C0034F987 /* Assets.xcassets in Resources */,
+				D637C3261CEC12BA0034F987 /* LiveViewController.xib in Resources */,
+				D637C3611CEC4D0F0034F987 /* news-s.png in Resources */,
+				D637C3401CEC1AB80034F987 /* DidEndTableViewCell.xib in Resources */,
+				D637C3621CEC4D0F0034F987 /* video-s.png in Resources */,
+				D637C35F1CEC4D0F0034F987 /* live-s.png in Resources */,
+				D637C35E1CEC4D0F0034F987 /* live.png in Resources */,
+				D637C35D1CEC4D0F0034F987 /* video.png in Resources */,
+				D637C32B1CEC12C50034F987 /* VideoViewController.xib in Resources */,
+				D637C3601CEC4D0F0034F987 /* news.png in Resources */,
+				D637C3451CEC1ACB0034F987 /* AllLiveTableViewCell.xib in Resources */,
 				D637C2C91CEBFB3C0034F987 /* Main.storyboard in Resources */,
+				D637C3301CEC12D40034F987 /* NewsViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,10 +500,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D637C3251CEC12BA0034F987 /* LiveViewController.m in Sources */,
+				D637C3741CECB4100034F987 /* DateLiveModel.m in Sources */,
 				D637C2CC1CEBFB3C0034F987 /* FootballChannel.xcdatamodeld in Sources */,
+				D637C32A1CEC12C50034F987 /* VideoViewController.m in Sources */,
+				D637C36E1CECA60A0034F987 /* LiveHandle.m in Sources */,
 				D637C2C61CEBFB3B0034F987 /* ViewController.m in Sources */,
 				D637C2C31CEBFB3B0034F987 /* AppDelegate.m in Sources */,
+				D637C3681CEC988B0034F987 /* AllLiveModel.m in Sources */,
+				D637C33F1CEC1AB80034F987 /* DidEndTableViewCell.m in Sources */,
 				D637C2C01CEBFB3B0034F987 /* main.m in Sources */,
+				D637C3441CEC1ACB0034F987 /* AllLiveTableViewCell.m in Sources */,
+				D637C32F1CEC12D40034F987 /* NewsViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
